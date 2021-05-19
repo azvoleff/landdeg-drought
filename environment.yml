@@ -1,0 +1,17 @@
+name: spi
+channels:
+    - conda-forge
+dependencies:
+    - python=3.9
+    - pip
+    - jupyterlab
+    - numpy
+    - scipy
+    - matplotlib
+    - xarray
+    - rasterio
+    - gdal
+    - rioxarray
+    - nco
+    - pip:
+        - climate-indices==1.0.9
